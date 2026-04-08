@@ -2,7 +2,7 @@
 
 A high-performance quantitative pipeline for forecasting cross-sectional returns in the cryptocurrency market. This project integrates live data fetching, vectorized factor engineering, and local Natural Language Processing (NLP) to demonstrate institutional-grade alpha research and machine learning workflows.
 
-## 🚀 Key Features & Resume Alignment
+## Key Features
 
 - **Real-World Data Integration**: Orchestrates historical daily OHLCV data fetching for a basket of assets (BTC, ETH, SOL, etc.) directly from **Binance** via the **CCXT** library.
 - **Crypto-Native Factor Engineering**: Implements a modular multi-factor model including:
@@ -14,7 +14,7 @@ A high-performance quantitative pipeline for forecasting cross-sectional returns
 - **Walk-Forward Validation**: Evaluates model robustness using an expanding-window backtest with an **XGBoost** regressor, calculating **Rank Information Coefficient (IC)** and **Quintile Spread**.
 - **Real-Time Hook Integration**: Includes a production-ready hook for the **CryptoPanic API**, demonstrating readiness for live streaming sentiment data.
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 - `main.py`: The central execution engine with user-toggles for NLP modes.
 - `data/`: 
@@ -26,7 +26,7 @@ A high-performance quantitative pipeline for forecasting cross-sectional returns
 - `evaluation/`: Professional performance metrics and walk-forward validation framework.
 - `tests/`: A `pytest` suite ensuring mathematical integrity across all modules.
 
-## 📊 Demo Results (Actual Execution)
+## Demo Results (Actual Execution)
 
 The following results were generated using real-world historical price data and local FinBERT sentiment analysis:
 
