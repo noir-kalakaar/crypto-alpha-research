@@ -45,7 +45,7 @@ The following results were generated using real-world historical price data and 
 | **NETWORK: New protocol upgrade proposed for ETH community** | **0.5395** | 🟢 Positive |
 | **REAL-TIME HOOK: BTC integration active** | **0.0000** | ⚪ Neutral |
 
-## 🛠️ Getting Started
+## Getting Started
 
 1. **Install Dependencies**:
    ```bash
@@ -63,7 +63,7 @@ The following results were generated using real-world historical price data and 
    pytest tests/
    ```
 
-## 🧠 Technical Highlights for Interviews
+## Technical Highlights for Interviews
 
 - **Point-in-Time Integrity**: Factors are calculated using only information available at the time of prediction to eliminate look-ahead bias.
 - **Computational Efficiency**: Utilizes NumPy linear algebra for OLS instead of iterative loops, resulting in a 10x speedup in neutralization logic.
